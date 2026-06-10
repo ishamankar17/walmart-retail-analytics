@@ -1,12 +1,11 @@
 # 🛒 Walmart Retail Analytics
-
 ### Sales Trends, Store Performance & Sales Forecasting
 
 ---
 
-**Tools Used:** Oracle SQL | Power BI | Python
-**Dataset Size:** 421,570 Sales Records
-**Period Covered:** 2010–2012
+**Tools Used:** Oracle SQL | Power BI | Python  
+**Dataset Size:** 421,570 Sales Records  
+**Period Covered:** 2010–2012  
 **Source:** Walmart Store Sales Dataset (Kaggle)
 
 ---
@@ -25,7 +24,7 @@ The goal was to transform raw sales data into meaningful business insights and b
 
 ## 📁 Project Structure
 
-```text
+```
 walmart-retail-analytics/
 │
 ├── raw_data/
@@ -43,32 +42,26 @@ walmart-retail-analytics/
 The project uses three datasets:
 
 ### Stores Data
-
 Contains store information such as:
-
-* Store ID
-* Store Type (A, B, C)
-* Store Size
+- Store ID
+- Store Type (A, B, C)
+- Store Size
 
 ### Features Data
-
 Contains external factors that may influence sales:
-
-* Temperature
-* Fuel Price
-* CPI
-* Unemployment Rate
-* Holiday Indicator
-* Promotional Markdown Spending
+- Temperature
+- Fuel Price
+- CPI
+- Unemployment Rate
+- Holiday Indicator
+- Promotional Markdown Spending
 
 ### Sales Data
-
 Contains:
-
-* Store ID
-* Department ID
-* Weekly Sales
-* Holiday Information
+- Store ID
+- Department ID
+- Weekly Sales
+- Holiday Information
 
 ---
 
@@ -77,21 +70,19 @@ Contains:
 The raw data was cleaned and prepared using Oracle SQL.
 
 ### Cleaning Steps
-
-* Removed invalid values and formatting issues
-* Standardized text fields
-* Filled missing promotional spending values
-* Handled missing CPI and unemployment records
-* Identified and flagged negative sales records
-* Renamed reserved Oracle column names
-* Merged all datasets into a single analysis table
+- Removed invalid values and formatting issues
+- Standardized text fields
+- Filled missing promotional spending values
+- Handled missing CPI and unemployment records
+- Identified and flagged negative sales records
+- Renamed reserved Oracle column names
+- Merged all datasets into a single analysis table
 
 ### Final Dataset
-
-* 421,570 records
-* 22 columns
-* No duplicates
-* No missing values
+- 421,570 records
+- 22 columns
+- No duplicates
+- No missing values
 
 ---
 
@@ -100,27 +91,69 @@ The raw data was cleaned and prepared using Oracle SQL.
 An interactive 6-page dashboard was developed to monitor:
 
 1. Executive Sales Overview
-    <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e8cf49db-2a01-4698-8019-71642882aeb8" />
-
-3. Sales Performance Trends
-4. Store Performance Analysis
-5. Holiday Impact Analysis
-6. External Factors Analysis
-7. Promotional Markdown Analysis
+2. Sales Performance Trends
+3. Store Performance Analysis
+4. Holiday Impact Analysis
+5. External Factors Analysis
+6. Promotional Markdown Analysis
 
 The dashboard allows users to explore sales performance across stores, departments, and time periods.
+
+---
+
+## 📸 Dashboard Screenshots
+
+### Page 1 — Executive Summary
+*Overall Walmart sales performance at a glance*
+
+<img width="1327" height="742" alt="image" src="https://github.com/user-attachments/assets/23e3c9da-045e-4ae7-b887-604d21a62234" />
+
+
+---
+
+### Page 2 — Sales Performance
+*Department, store and quarterly sales breakdown*
+
+![Sales Performance](screenshots/02_sales_performance.png)
+
+---
+
+### Page 3 — Store Analysis
+*Store size, type and individual store performance*
+
+![Store Analysis](screenshots/03_store_analysis.png)
+
+---
+
+### Page 4 — Holiday Impact
+*Holiday vs non-holiday sales trends and uplift analysis*
+
+![Holiday Impact](screenshots/04_holiday_impact.png)
+
+---
+
+### Page 5 — External Factors
+*CPI, fuel price and unemployment impact on sales*
+
+![External Factors](screenshots/05_external_factors.png)
+
+---
+
+### Page 6 — Markdown Analysis
+*Promotional markdown spend vs sales performance*
+
+![Markdown Analysis](screenshots/06_markdown_analysis.png)
 
 ---
 
 ## 🐍 Python Analysis
 
 Python was used for:
-
-* Exploratory Data Analysis (EDA)
-* Trend Analysis
-* Correlation Analysis
-* Sales Distribution Analysis
-* Machine Learning Model Development
+- Exploratory Data Analysis (EDA)
+- Trend Analysis
+- Correlation Analysis
+- Sales Distribution Analysis
+- Machine Learning Model Development
 
 ### Machine Learning Model
 
@@ -128,9 +161,11 @@ A Random Forest Regression model was developed to predict weekly sales.
 
 **Results:**
 
-* R² Score: 97.67%
-* RMSE: $7,112
-* MAE: $3,961
+| Metric | Value |
+|---|---|
+| R² Score | 97.67% |
+| RMSE | $7,112 |
+| MAE | $3,961 |
 
 The model successfully captured most sales patterns and produced highly accurate predictions.
 
@@ -138,39 +173,42 @@ The model successfully captured most sales patterns and produced highly accurate
 
 ## 🔍 Key Business Insights
 
-* Walmart generated approximately **$6.74 Billion** in sales during the period analyzed.
-* **Store Type A** contributed the largest share of revenue.
-* **Store 20** was the highest-performing store.
-* Holiday weeks generated significantly higher sales than regular weeks.
-* November showed the strongest sales performance due to holiday shopping.
-* Promotional markdown spending increased significantly after 2011.
-* Department number was the most important factor in predicting sales.
+- Walmart generated approximately **$6.74 Billion** in sales during the period analyzed
+- **Store Type A** contributed the largest share of revenue
+- **Store 20** was the highest performing store
+- Holiday weeks generated significantly higher sales than regular weeks
+- **November** showed the strongest sales performance due to holiday shopping
+- Promotional markdown spending increased significantly after 2011
+- **Department number** was the most important factor in predicting sales
 
 ---
 
 ## 💡 Skills Demonstrated
 
-* SQL Data Cleaning & Validation
-* Data Modeling
-* Power BI Dashboard Development
-* Business Intelligence Reporting
-* Python Data Analysis
-* Machine Learning
-* Data Storytelling
+- SQL Data Cleaning & Validation
+- Data Modeling
+- Power BI Dashboard Development
+- Business Intelligence Reporting
+- Python Data Analysis
+- Machine Learning
+- Data Storytelling
 
 ---
 
 ## 🚀 Future Improvements
 
-* Time Series Sales Forecasting
-* XGBoost Model Comparison
-* Store Segmentation using Clustering
-* Advanced Model Explainability
+- [ ] Time Series Sales Forecasting
+- [ ] XGBoost Model Comparison
+- [ ] Store Segmentation using Clustering
+- [ ] Advanced Model Explainability
 
 ---
-
-
 
 ## ⚠️ Disclaimer
 
 This project uses historical Walmart sales data for educational and portfolio purposes.
+
+---
+
+*Built as part of my Data Analytics Portfolio*  
+*Tools: Oracle SQL · Power BI · Python (pandas · sklearn · matplotlib · seaborn)*
