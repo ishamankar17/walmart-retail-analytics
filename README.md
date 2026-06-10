@@ -100,11 +100,13 @@ The raw data was cleaned and prepared using Oracle SQL.
 An interactive 6-page dashboard was developed to monitor:
 
 1. Executive Sales Overview
-2. Sales Performance Trends
-3. Store Performance Analysis
-4. Holiday Impact Analysis
-5. External Factors Analysis
-6. Promotional Markdown Analysis
+    <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e8cf49db-2a01-4698-8019-71642882aeb8" />
+
+3. Sales Performance Trends
+4. Store Performance Analysis
+5. Holiday Impact Analysis
+6. External Factors Analysis
+7. Promotional Markdown Analysis
 
 The dashboard allows users to explore sales performance across stores, departments, and time periods.
 
@@ -167,11 +169,7 @@ The model successfully captured most sales patterns and produced highly accurate
 
 ---
 
-## 📷 Dashboard Preview
 
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5bf55ae2-df8e-4b23-b1c9-ee734dc2fa33" />
-
----
 
 ## ⚠️ Disclaimer
 
