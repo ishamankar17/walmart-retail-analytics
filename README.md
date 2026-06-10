@@ -106,7 +106,7 @@ The dashboard allows users to explore sales performance across stores, departmen
 ### Page 1 — Executive Summary
 *Overall Walmart sales performance at a glance*
 
-<img width="1327" height="742" alt="image" src="https://github.com/user-attachments/assets/23e3c9da-045e-4ae7-b887-604d21a62234" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/23e3c9da-045e-4ae7-b887-604d21a62234" />
 
 
 ---
