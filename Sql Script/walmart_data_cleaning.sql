@@ -1,12 +1,8 @@
--- ============================================================
+
 -- WALMART SALES DATA - ORACLE SQL CLEANING SCRIPT
 -- Tables: FEATURES_DATA, SALES_DATA, STORE_DATASET
--- ============================================================
 
-
--- ============================================================
 -- STEP 1: INSPECT RAW DATA
--- ============================================================
 
 -- Check row counts
 SELECT 'FEATURES_DATA' AS TABLE_NAME, COUNT(*) AS ROW_COUNT FROM FEATURES_DATA
@@ -38,9 +34,7 @@ GROUP BY STORE, DEPT, TXN_SALES_DATE
 HAVING COUNT(*) > 1;
 
 
--- ============================================================
 -- STEP 2: CLEAN FEATURES_DATA
--- ============================================================
 
 -- 2a. Fill MarkDown NULLs with 0
 --     (NULL = no markdown/promotion event that week)
@@ -83,10 +77,8 @@ SELECT
 FROM FEATURES_DATA;
 -- All should return 0
 
-
--- ============================================================
 -- STEP 3: CLEAN SALES_DATA
--- ============================================================
+
 
 -- 3a. Handle negative Weekly_Sales — flag them first
 ALTER TABLE SALES_DATA ADD (IS_RETURN VARCHAR2(5) DEFAULT 'FALSE');
@@ -107,9 +99,7 @@ SELECT COUNT(*) AS STILL_NEGATIVE FROM SALES_DATA WHERE WEEKLY_SALES < 0;
 -- Should return 0
 
 
--- ============================================================
 -- STEP 4: CLEAN STORE_DATASET
--- ============================================================
 
 -- Trim whitespace and standardize TYPE column
 UPDATE STORE_DATASET
@@ -121,9 +111,8 @@ COMMIT;
 SELECT DISTINCT TYPE FROM STORE_DATASET ORDER BY TYPE;
 
 
--- ============================================================
 -- STEP 5: CREATE FINAL MERGED CLEAN TABLE
--- ============================================================
+
 
 CREATE TABLE WALMART_CLEAN AS
 SELECT
