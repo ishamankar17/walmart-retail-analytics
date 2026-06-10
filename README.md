@@ -114,35 +114,40 @@ The dashboard allows users to explore sales performance across stores, departmen
 ### Page 2 — Sales Performance
 *Department, store and quarterly sales breakdown*
 
-![Sales Performance](screenshots/02_sales_performance.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5acfe17d-fb41-49a5-b05d-eaf9210c18f6" />
+
 
 ---
 
 ### Page 3 — Store Analysis
 *Store size, type and individual store performance*
 
-![Store Analysis](screenshots/03_store_analysis.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4677d63f-4f0a-47d0-b76d-0bbbeb0fed55" />
+
 
 ---
 
 ### Page 4 — Holiday Impact
 *Holiday vs non-holiday sales trends and uplift analysis*
 
-![Holiday Impact](screenshots/04_holiday_impact.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/350e8171-6803-412e-9681-783349b82b9c" />
+
 
 ---
 
 ### Page 5 — External Factors
 *CPI, fuel price and unemployment impact on sales*
 
-![External Factors](screenshots/05_external_factors.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e329a855-4513-46f9-8971-c2476d9b6266" />
+
 
 ---
 
 ### Page 6 — Markdown Analysis
 *Promotional markdown spend vs sales performance*
 
-![Markdown Analysis](screenshots/06_markdown_analysis.png)
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5f01b0bf-e6c9-4df3-a797-bfbf846106ea" />
+
 
 ---
 
