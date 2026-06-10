@@ -1,0 +1,22 @@
+Total Sales = SUM(WALMART_CLEAN[WEEKLY_SALES])
+
+Avg Weekly Sales = AVERAGE(WALMART_CLEAN[WEEKLY_SALES])
+
+Holiday Sales = CALCULATE(SUM(WALMART_CLEAN[WEEKLY_SALES]), 
+                WALMART_CLEAN[IS_HOLIDAY] = "TRUE")
+
+Non Holiday Sales = CALCULATE(SUM(WALMART_CLEAN[WEEKLY_SALES]), 
+                   WALMART_CLEAN[IS_HOLIDAY] = "FALSE")
+
+Holiday Sales % = DIVIDE([Holiday Sales], [Total Sales], 0)
+
+Total Markdown = SUM(WALMART_CLEAN[TOTAL_MARKDOWN])
+
+Avg Sales Per Store = DIVIDE([Total Sales], [Total Stores], 0)
+
+Top Store Sales = MAXX(VALUES(WALMART_CLEAN[STORE]), [Total Sales])
+
+Markdown To Sales Ratio = DIVIDE([Total Markdown], [Total Sales], 0)
+
+Holiday Weeks = CALCULATE(DISTINCTCOUNT(WALMART_CLEAN[SALE_DATE]),
+                WALMART_CLEAN[IS_HOLIDAY] = "TRUE")
