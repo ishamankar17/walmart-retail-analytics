@@ -169,7 +169,7 @@ The model successfully captured most sales patterns and produced highly accurate
 
 ## 📷 Dashboard Preview
 
-(Add dashboard screenshots here)
+<img width="1322" height="729" alt="image" src="https://github.com/user-attachments/assets/5bf55ae2-df8e-4b23-b1c9-ee734dc2fa33" />
 
 ---
 
