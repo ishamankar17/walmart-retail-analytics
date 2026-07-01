@@ -6,6 +6,15 @@
 **Source:** Walmart Store Sales Dataset (Kaggle)
 
 ---
+# 📌 Project Overview
+
+This project analyzes Walmart retail sales data to evaluate store performance, identify sales trends, measure holiday impact, and understand how external factors influence weekly sales.
+
+The workflow includes:
+
+**Data Cleaning (Oracle SQL) → Dashboard Development (Power BI) → Exploratory Data Analysis (Python) → Machine Learning Sales Prediction**
+
+---
 
 # 📸 Dashboard Preview
 
@@ -26,16 +35,6 @@
 
 ## Markdown Analysis
 <img width="900" src="https://github.com/user-attachments/assets/5f01b0bf-e6c9-4df3-a797-bfbf846106ea">
-
----
-
-# 📌 Project Overview
-
-This project analyzes Walmart retail sales data to evaluate store performance, identify sales trends, measure holiday impact, and understand how external factors influence weekly sales.
-
-The workflow includes:
-
-**Data Cleaning (Oracle SQL) → Dashboard Development (Power BI) → Exploratory Data Analysis (Python) → Machine Learning Sales Prediction**
 
 ---
 
