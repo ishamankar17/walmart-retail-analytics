@@ -19,22 +19,23 @@ The workflow includes:
 # 📸 Dashboard Preview
 
 ## Executive Summary
-<img width="900" src="https://github.com/user-attachments/assets/23e3c9da-045e-4ae7-b887-604d21a62234">
+<img width="900" src="https://github.com/user-attachments/assets/7c26e5f0-e43e-403f-8a11-6e1b8cf3e0bb">
 
 ## Sales Performance
-<img width="900" src="https://github.com/user-attachments/assets/5acfe17d-fb41-49a5-b05d-eaf9210c18f6">
+<img width="900" src="https://github.com/user-attachments/assets/7d0bb540-a208-401e-b16a-93b9830cb77c">
 
 ## Store Analysis
-<img width="900" src="https://github.com/user-attachments/assets/4677d63f-4f0a-47d0-b76d-0bbbeb0fed55">
+<img width="900" src="https://github.com/user-attachments/assets/6858c61f-c6ef-48fb-8201-345426a9478e">
 
 ## Holiday Impact
-<img width="900" src="https://github.com/user-attachments/assets/350e8171-6803-412e-9681-783349b82b9c">
+<img width="900" src="https://github.com/user-attachments/assets/bd98619d-ac52-4073-b97d-9b0540a5e414">
 
 ## External Factors
-<img width="900" src="https://github.com/user-attachments/assets/e329a855-4513-46f9-8971-c2476d9b6266">
+<img width="900" src="https://github.com/user-attachments/assets/53af334f-e80e-4d3d-a706-c72b6824e1e8">
 
 ## Markdown Analysis
-<img width="900" src="https://github.com/user-attachments/assets/5f01b0bf-e6c9-4df3-a797-bfbf846106ea">
+<img width="900" src="https://github.com/user-attachments/assets/e49e20ed-3560-477b-9ec1-452af1149793">
+
 
 ---
 
