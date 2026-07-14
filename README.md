@@ -19,7 +19,7 @@ The workflow includes:
 # 📸 Dashboard Preview
 
 ## Executive Summary
-<img width="900" src="https://github.com/user-attachments/assets/7c26e5f0-e43e-403f-8a11-6e1b8cf3e0bb">
+<img width="900" src="https://github.com/user-attachments/assets/68af2791-4c2c-4155-9eab-a13210fd5b06">
 
 ## Sales Performance
 <img width="900" src="https://github.com/user-attachments/assets/7d0bb540-a208-401e-b16a-93b9830cb77c">
