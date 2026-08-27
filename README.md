@@ -1,139 +1,69 @@
-# 🛒 Walmart Retail Analytics
-## Sales Trends, Store Performance & Sales Forecasting
+# Walmart Retail Analytics
 
-**Tools:** Oracle SQL | Power BI | Python  
-**Dataset:** 421,570 Sales Records (2010–2012)  
-**Source:** Walmart Store Sales Dataset (Kaggle)
+### Sales Trends, Store Performance & Sales Prediction
 
----
-# 📌 Project Overview
+## Project Overview
 
-This project analyzes Walmart retail sales data to evaluate store performance, identify sales trends, measure holiday impact, and understand how external factors influence weekly sales.
+This project analyzes Walmart's historical weekly sales data to understand **sales trends, store performance, holiday impact, and the relationship between sales and external factors**.
 
-The workflow includes:
+The analysis combines **Oracle SQL for data preparation, Power BI for interactive visualization, and Python for exploratory analysis and machine learning**.
 
-**Data Cleaning (Oracle SQL) → Dashboard Development (Power BI) → Exploratory Data Analysis (Python) → Machine Learning Sales Prediction**
+## Dataset
 
----
+The project uses the **Walmart Store Sales Dataset** from Kaggle, containing **421,570 sales records from 2010–2012**.
 
-# 📸 Dashboard Preview
+The datasets include:
 
-## Executive Summary
-<img width="900" src="https://github.com/user-attachments/assets/68af2791-4c2c-4155-9eab-a13210fd5b06">
+* **Stores:** Store ID, store type, and store size
+* **Features:** Temperature, fuel price, CPI, unemployment, holiday indicators, and markdown spending
+* **Sales:** Weekly sales, department, store, and holiday information
 
-## Sales Performance
-<img width="900" src="https://github.com/user-attachments/assets/7d0bb540-a208-401e-b16a-93b9830cb77c">
+## Analysis Performed
 
-## Store Analysis
-<img width="900" src="https://github.com/user-attachments/assets/6858c61f-c6ef-48fb-8201-345426a9478e">
+* Analyzed **weekly and monthly sales trends**
+* Compared **sales performance across stores and store types**
+* Evaluated the **impact of holidays on weekly sales**
+* Studied the relationship between **sales and external factors** such as temperature, fuel price, CPI, and unemployment
+* Analyzed **promotional markdown spending** and its relationship with sales
+* Identified the **top-performing stores and departments**
+* Performed **correlation and feature importance analysis**
+* Developed a **Random Forest Regression model** to predict weekly sales
 
-## Holiday Impact
-<img width="900" src="https://github.com/user-attachments/assets/bd98619d-ac52-4073-b97d-9b0540a5e414">
+## Technologies Used
 
-## External Factors
-<img width="900" src="https://github.com/user-attachments/assets/53af334f-e80e-4d3d-a706-c72b6824e1e8">
+* **Oracle SQL** — Data cleaning, validation, joining datasets, and analysis
+* **Power BI** — Interactive dashboards and KPI visualization
+* **Python** — EDA, correlation analysis, feature importance, and machine learning
+* **Pandas & NumPy** — Data manipulation
+* **Matplotlib** — Data visualization
+* **Scikit-learn** — Random Forest Regression and model evaluation
 
-## Markdown Analysis
-<img width="900" src="https://github.com/user-attachments/assets/e49e20ed-3560-477b-9ec1-452af1149793">
+##  Model Performance
 
-
----
-
-# 📊 Dataset
-
-The project combines three datasets:
-
-- **Stores:** Store ID, Type, Size
-- **Features:** Temperature, Fuel Price, CPI, Unemployment, Holiday Flag, Markdown Spending
-- **Sales:** Weekly Sales, Department, Store, Holiday Information
-
-Final dataset:
-
-- **421,570 records**
-- **22 columns**
-- No duplicates
-- No missing values
-
----
-
-# 🧹 Data Preparation (Oracle SQL)
-
-Performed:
-
-- Data cleaning and validation
-- Missing value handling
-- Standardization
-- Negative sales detection
-- Dataset merging
-- Final analysis table creation
-
----
-
-# 📈 Power BI Dashboard
-
-Interactive dashboard with six report pages:
-
-- Executive Overview
-- Sales Trends
-- Store Performance
-- Holiday Analysis
-- External Factors
-- Promotional Markdown Analysis
-
----
-
-# 🐍 Python Analysis & Machine Learning
-
-Performed:
-
-- Exploratory Data Analysis (EDA)
-- Correlation Analysis
-- Sales Trend Analysis
-- Feature Importance
-- Random Forest Regression for Weekly Sales Prediction
-
-### Model Performance
-
-| Metric | Value |
-|---------|---------|
+| Metric   |      Score |
+| -------- | ---------: |
 | R² Score | **97.67%** |
-| RMSE | **7,112** |
-| MAE | **3,961** |
+| RMSE     |  **7,112** |
+| MAE      |  **3,961** |
 
----
+## 📸 Dashboard Preview
 
-# 🔍 Key Insights
+### Executive Summary
 
-- Generated approximately **$6.74 Billion** in total sales
-- **Store Type A** produced the highest revenue
-- **Store 20** achieved the highest sales
-- Holiday weeks consistently outperformed regular weeks
-- November recorded peak sales due to seasonal demand
-- Promotional markdown spending increased after 2011
-- Department ID was the strongest predictor of weekly sales
+<img width="900" src="https://github.com/user-attachments/assets/3386faeb-38ab-42b2-9364-082d40bef668">
 
----
+### Sales Performance
 
-# 💡 Skills Demonstrated
+<img width="900" src="https://github.com/user-attachments/assets/9e7c3608-a2bd-4ebc-8ae9-a24efc9102a0">
 
-- Oracle SQL
-- Power BI
-- Python
-- Data Cleaning
-- Data Visualization
-- Business Intelligence
-- Machine Learning
-- Data Storytelling
+### Store Analysis
 
----
+<img width="900" src="https://github.com/user-attachments/assets/006f4e2f-9dcd-4f70-bd0f-2e9ab8c379fb">
 
-# 🚀 Future Improvements
+### Holiday Impact
 
-- Time Series Forecasting
-- XGBoost Comparison
-- Store Clustering
-- Model Explainability (SHAP)
+<img width="900" src="https://github.com/user-attachments/assets/2b145bd1-abf0-492b-bb8e-95290c2673c6">
 
----
+### External Factors
 
-*Built as part of my Data Analytics Portfolio.*
+<img width="900" src="https://github.com/user-attachments/assets/bab91acb-c9f5-4ba0-b38e-c01afdd6992e">
