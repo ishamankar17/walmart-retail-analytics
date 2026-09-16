@@ -67,3 +67,27 @@ The datasets include:
 ### External Factors
 
 <img width="900" src="https://github.com/user-attachments/assets/bab91acb-c9f5-4ba0-b38e-c01afdd6992e">
+
+### Markdown Analysis
+
+<img width="900" src="https://github.com/user-attachments/assets/4ef0a5ed-e098-42fa-91ac-ffe0fff971d9" />
+
+## Key Insights
+
+- **Sales Performance:** Sales show strong seasonal variation, with **Q4 consistently recording the highest quarterly sales**. Department 92 and Store 20 are among the leading contributors, while 2012 data is partial.
+- **Store Analysis:** **Type A stores generate the majority of total sales** and have the largest average store size. Store 20 is the highest-performing store by total sales, showing a clear association between store scale and sales performance.
+- **Holiday Impact:** Holiday weeks contribute significantly to sales, with **November showing the strongest holiday sales spike** across the available years. Holiday periods generate substantially higher sales than non-holiday weeks.
+- **External Factors:** Fuel prices increased over the period, while unemployment generally declined. The dashboard examines how **CPI, fuel prices, and unemployment relate to sales performance**.
+- **Markdown Analysis:** Markdown activity represents a significant promotional investment. **Higher markdown spending does not always correspond to higher total sales**, suggesting that promotional effectiveness should be evaluated alongside sales outcomes.
+
+### Overall Business Insight
+
+**Sales performance is influenced by a combination of seasonality, store characteristics, holiday demand, external factors, and promotional activity rather than a single factor.**
+
+## Dataset Scope & Limitations
+
+- **Dataset:** Historical Walmart weekly sales data covering **45 stores and multiple departments from 2010–2012**.
+- **Analysis Scope:** Sales performance, store characteristics, holiday effects, external factors, and markdown activity.
+- **Key Limitation:** **2012 contains partial-year data (January–October)**, so annual comparisons with 2010 and 2011 should be interpreted carefully.
+- **Interpretation:** The dashboard identifies **historical trends, patterns, and relationships**. These relationships do not necessarily indicate causation.
+- **Business Use:** Findings are intended for **exploratory analysis and decision support**, not as definitive forecasts or causal conclusions.
